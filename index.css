@@ -95,6 +95,21 @@
     left: 0;
     z-index: -1;
 }
+.home-h1{
+    text-align: center;
+     font-size: 3.4rem;
+      margin-bottom: 10px;
+}
+.home-h3{
+    font-size: 1.9rem;
+    font-weight: 300;
+     margin-bottom: 10px;
+}
+.home-p{
+    font-size: 1.3rem;
+     font-weight: 200;
+      margin-bottom: 10px; 
+}
 .input-field{
     width: 70%;
     height: 70px;
@@ -148,6 +163,7 @@
     justify-content: space-around;
     color: #fff;
     border-bottom: 10px solid #222;
+    flex-wrap: wrap-reverse;
 }
 .box1-content{
     width: 48%;
@@ -201,6 +217,9 @@
 }
 
 /* box2 starts from here  */
+.box2{
+    flex-wrap: wrap;
+}
 
 .box2-img{
     width: 40%;
@@ -298,6 +317,7 @@
     align-items: center;
     justify-content: space-around;
     color: #fff;
+    flex-wrap: wrap;
 }
 .box4-img{
     background-image: url(./resources/bacche\ ki\ photo.png);
@@ -445,6 +465,7 @@ footer{
     height:300px ;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap-reverse;
 }
 .foot{
     width:20%;
@@ -467,6 +488,178 @@ footer{
     margin: 20px 0px;
     width:120px;
 }
+@media(max-width:1050px){
+    .nav-buttons{
+        width: 30%;
+    }
+    .input-field{
+        width: 90%;
+    }
+    .box5-email {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    .box1{
+        height: fit-content;
+    }
+    .box1-content{
+        width: 100%;
+        height: fit-content;
+        padding: 40px 0px;
+       text-align: center;
 
+    }
+    .box2{
+        height: fit-content;
+    }
+    .box2-content{
+        width: 100%;
+        height: fit-content;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .box4{
+        height: fit-content;
+        
+    }
+    .box4-cnt {
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+        padding: 40px;
+    }
+    .box4-cnt p:nth-child(2){
+        font-size: 1.6rem;
+    }
+    .box4-img{
+        width: 80%;
+    } 
+    .inpBox{
+        width: 100%;
+    }
+    .box5-email p{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .nav-logo{
+        width: 30%;
+    }
+}
+@media(max-width:760px){
+    .home-cnt{
+        width: 100%;
+        text-align: center;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .nav-buttons{
+        width: 50%;
+    }
+    .inp{
+        width: 90%;
+    }
+    .nav-logo{
+        width: 40%;
+    }
+    .inp input{
+        width: 250px;
+    }
+    .inp button{
+        width: 150px;
+        font-size: 1.3rem;
+    }
+    .home-h1{
+        font-size: 2.5rem;
+    }
+    .home-h3{
+        font-size: 1.5rem;
+    }
+    .box1-head{
+        width: 100%;
+    }
+    .box1-img{
+        height: 300px;
+    }
+    .box5-cnt{
+        width: 90%;
+    }
+    .box1-cnt,.box2-cnt,.box4-cnt p:nth-child(2){
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    .footer-cnt{
+        width: 100%;
+    }
+    .footerlinks{
+        height: fit-content;
+        margin-top: 20px;
+    }
+    .foot{
+        width: 35%;
+    }
+    footer{
+        height: fit-content;
+        padding: 10vh 0px;
+    }
+    .foot2{
+        height:215px;
+    }
+
+}
+
+@media(max-width:460px){
+    .box1-video::before{
+        width: 350px;
+        height: 280px;
+    }
+    .box1-head,.box3-head,.box2-head,.box4-cnt p:nth-child(1){
+        font-size: 2.3rem;
+        width: 90%;
+    }
+    .box3-video::before{
+        width: 350px;
+        height: 280px;
+    }
+    .box1-video video{
+        width: 255px;
+        margin-bottom: 30px;
+    }
+    .inp button{
+        font-size: 0.8rem;
+    }
+    .box3-video video{
+        width: 245px;
+        margin-bottom: 93px;
+    }
+    .nav-logo img{
+        height: 40px;
+    }
+    .home-p{
+        width: 90%;
+    }
+    .lang-btn{
+        width: fit-content;
+        padding: 0px 2px;
+    }
+    .home-h1 {
+        font-size: 2.3rem;
+    }
+    .sign-btn button{
+        width: 70px;
+    }
+    .q1 p{
+        font-size: 1.4rem;
+    }
+    .box5-head p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box4-img{
+        height: 300px;
+        width: 95%;
+    }
+}
 
 
